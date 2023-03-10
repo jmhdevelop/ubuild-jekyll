@@ -1,0 +1,16 @@
+{
+  "name": "ubuild-jekyll",
+  "version": "1.0.0",
+  "description": "![uBuild Blocks](uploads/2018/06/21/theme.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tinacms/cli": "^1.3.1",
+    "tinacms": "^1.3.0"
+  }
+}
