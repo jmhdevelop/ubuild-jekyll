@@ -24,16 +24,7 @@ permissions:
 concurrency:
   group: "pages"
   cancel-in-progress: true
-
-jobs:
-  tina:
-    runs-on: ubuntu-latest
-    steps:
-      - name: pepa
-        env:
-          CLIENT_ID: ${{ secrets.TINA_PUBLIC_CLIENT_ID }}
-          TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
-        run: ${{ steps.detect-package-manager.outputs.runner }} tinacms build
+  
   # Build job
   build:
     runs-on: ubuntu-latest
